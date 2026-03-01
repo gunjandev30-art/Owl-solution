@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Account - Slot Machine HTML Template - Slot Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
+    <!-- font-awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Animated Text CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css" rel="stylesheet">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Inter:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="loader"></div>
+    <!-- header -->
+    <nav id="top">
+        <div class="container">
+            <div class="row top">
+                <div class="top-left col-lg-6 col-md-5 col-2">
+                    <div class="">
+                        <div class="contact-info">
+                            <a href="tel:+1(123)8425733">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+1 (123) 8425733</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-right col-lg-6 col-md-7 col-10">
+                    <div class="currency pull-left">
+                        <ul>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link currency_name" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="symbol">$</span>
+                                    <span class="drop-text">Currency</span>
+                                    <span class="code">:USD</span>
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu currency_list" aria-labelledby="navbarDropdown">
+                                    <li><a href="#" class="dropdown-item">€ Euro</a></li>
+                                    <li><a href="#" class="dropdown-item">£ Pound Sterling</a></li>
+                                    <li><a href="#" class="dropdown-item">$ US Dollar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="currency pull-left">
+                        <ul>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link lang-name" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="symbol">$</span>
+                                    <span class="drop-text">Language</span>
+                                    <span class="code">:En-gb</span>
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu lang-list" aria-labelledby="navbarDropdown">
+                                    <li><a href="#" class="dropdown-item">English</a></li>
+                                    <li><a href="#" class="dropdown-item">Arabic</a></li>
+                                    <li><a href="#" class="dropdown-item">Spanish</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- header-menu  -->
+    <header>
+        <div class="slotclub-main-menu hidden-xs hidden-sm header-fixed">
+            <div class="slotclub-nav-area fluid">
+                <div class="container">
+                    <div class="banner-inner row align-items-center logo-left">
+                        <!-- logo -->
+                        <div class="col-lg-1 col-sm-6 col-2  header-left">
+                            <div class="logo">
+                                <a href="index.html" class="main-sticky">
+                                    <img src="assets/images/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- main menu -->
+                        <div class="col-lg-8 col-sm-2 col-5 phone-menu">
+                            <nav class="slotclub-menu main-search-menu">
+                                <div class="navbar-header d-lg-none">
+                                    <button type="button" id="show-header_menu" data-toggle="collapse" class="navbar-toggle">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </button>
+                                </div>
+                                <div class="main-menu-outer">
+                                    <div class="d-lg-none menu-title">
+                                        Menu
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                    <ul class="main-menu nav-scroll mb-0 header_menu">
+                                        <li>
+                                            <a class="one" href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a class="one" href="about.html">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a class="one" href="jackpot.html">Jackpot</a>
+                                        </li>
+                                        <li>
+                                            <a class="active" href="my-account.html">Account</a>
+                                        </li>
+                                        <li>
+                                            <a class="one" href="faqs.html">FAQ's</a>
+                                        </li>
+                                        <li>
+                                            <a class="one" href="contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- login section -->
+                        <div class="header-right col-xxl-3 col-lg-3 col-sm-4 col-5">
+                            <a class="ac-button register" href="my-account.html">Register</a>
+                            <a class="ac-button" href="my-account.html">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- account form -->
+    <div class="container mt-50 wow fadeInUp">
+        <h2 class="title">Account Details</h2>
+        <div class="row account-detail">
+            <div id="column-left" class="col-lg-4 account_desc">
+                <div class="account">
+                    <h2 class="ac-title">Account</h2>
+                    <div class="list">
+                        <ul>
+                            <li><a href="my-account.html">Account</a></li>
+                            <li><a href="my-account.html">Register</a></li>
+                            <li><a href="my-account.html">Forgotten Password</a></li>
+                            <li><a href="my-account.html">My Account</a></li>
+                            <li><a href="#">Address Book</a></li>
+                            <li><a href="#">Wish List</a></li>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Recurring Paymenyts</a></li>
+                            <li><a href="#">Reward Points</a></li>
+                            <li><a href="#">Transactions</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information">
+                    <h2 class="ac-title">Information</h2>
+                    <div class="list">
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="content" class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="register-account">
+                            <h2 class="ac-title">Register Account</h2>
+                            <div class="register-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label class="account-label">Frist Name</label>
+                                        <input type="email" class="form-control form-input" placeholder="Frist Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="account-label">Last Name</label>
+                                        <input type="email" class="form-control form-input" placeholder="Last Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="account-label">E-mail</label>
+                                        <input type="email" class="form-control form-input" placeholder="E-mail">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="account-label">Telephone</label>
+                                        <input type="email" class="form-control form-input" placeholder="Telephone">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="account-label">Password</label>
+                                        <input type="password" class="form-control form-input" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="account-label">Confirm Password</label>
+                                        <input type="password" class="form-control form-input" placeholder="Confirm Password">
+                                    </div>
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">I Have Read And Agree To The Privacy Policy</label>
+                                    </div>
+                                    <button type="submit" class="btn">Confirm</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="login-account">
+                            <h2 class="ac-title">Login Account</h2>
+                            <div class="register-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label>E-mail Address</label>
+                                        <input type="email" class="form-control form-input" placeholder="E-mail Address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input type="password" class="form-control form-input" placeholder="Password">
+                                    </div>
+                                    <div class="forget_password">
+                                        <a href="#">Forgotten Password !</a>
+                                    </div>
+                                    <button type="submit" class="btn">Login</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="mt-50">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-lg-2 col-sm-12">
+                        <div class="position-footer-left">
+                            <div>
+                                <h5 class="toggled_tittle">Contact
+                                    <span class="toggle-open">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </span>
+                                </h5>
+                                <div class="footer_collaps">
+                                    <ul class="list-unstyled footer_contact">
+                                        <li>
+                                            <div class="site">
+                                                <div class="contact_site"><i class="fa-solid fa-location-dot"></i>
+                                                    <a href="#">National park,d1 254,United States</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="site">
+                                                <div class="contact_site"><i class="fa-solid fa-phone"></i>
+                                                    <a href="#">+91 123 456 789</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="site">
+                                                <div class="contact_site"><i class="fa-brands fa-whatsapp"></i>
+                                                    <a href="#">0123-456-789</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="site">
+                                                <div class="contact_site"><i class="fa-solid fa-envelope"></i>
+                                                    <a href="#">Demo@Yourstore.com</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="logo-section">
+                                        <img class="footer-logo img-fluid" src="assets/images/logo.png" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. quam facere. Maiores, provident. Quisquam ut voluptatem quod tempora facilis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 toggle-open footer-description">
+                        <div>
+                            <img class="footer-logo img-fluid" src="assets/images/logo.png" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. quam facere. Maiores, provident. Quisquam ut voluptatem quod tempora facilis.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 Information">
+                        <h5 class="toggled_tittle">Top Jackpot Games
+                            <span class="toggle-open">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </h5>
+                        <div class="footer_collaps game-div">
+                            <div class="footer-jackpot">
+                                <div class="game-desc">
+                                    <a href="#"><img src="assets/images/footerimage/1.png" alt=""></a>
+                                    <div class="game-info">
+                                        <a href="#">The Real Jackpot Game</a>
+                                        <div class="price">
+                                            <p>$299.00</p>
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-jackpot">
+                                <div class="game-desc">
+                                    <a href="#"><img src="assets/images/footerimage/2.png" alt=""></a>
+                                    <div class="game-info">
+                                        <a href="#">The Real Jackpot Game</a>
+                                        <div class="price">
+                                            <p>$299.00</p>
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-jackpot">
+                                <div class="game-desc">
+                                    <a href="#"><img src="assets/images/footerimage/3.png" alt=""></a>
+                                    <div class="game-info">
+                                        <a href="#">The Real Jackpot Game</a>
+                                        <div class="price">
+                                            <p>$299.00</p>
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 Extras">
+                        <h5 class="toggled_tittle">Our Newsletter
+                            <span class="toggle-open">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </h5>
+                        <div class="footer_collaps">
+                            <div class="newsletter">
+                                <p>Lorem Ipsum is simply dummy text of the printing and Ipsum is simply dummy typesetting industry.</p>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Your Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Your Email">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Send Message</button>
+                                </form>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-lg-2  col-sm-12">
+                        <div class="position-footer-right">
+                            <div class="follow-link">
+                                <h5>Find Us On</h5>
+                                <div class="social-media">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-pinterest-p"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="payment-link">
+                                <h5>Payment</h5>
+                                <div class="payment-method">
+                                    <a href="#">
+                                        <i class="fa-brands fa-cc-visa"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-regular fa-credit-card"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-cc-mastercard"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-cc-discover"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">© 2023 Slot Club - All Rights Reserved.</p>
+        </div>
+    </footer>
+    <a class="scrollToTop back-to-top" href="" data-toggle="tooltip" title="" data-original-title="Top" style="display: block;" data-bs-original-title=""><i class="fa fa-angle-up"></i></a>
+    <!-- Bootstrap js -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Main jquery js -->
+    <script src="assets/js/vendors/jquery-v3.6.4.min.js"></script>
+    <!-- wow js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- Main js -->
+    <script src="assets/js/theme.js"></script>
+    <!--owl javascript -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+</body>
+
+</html>
