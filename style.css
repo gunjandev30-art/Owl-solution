@@ -5273,6 +5273,12 @@ button.btn.subscribe-btn {
     align-items: center;
     justify-content: center;
 }
+.nav-item .nav-link {
+    color: #fff6e4;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #ffc107;
+}
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .footer-desc {
